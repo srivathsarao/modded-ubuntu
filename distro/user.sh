@@ -33,7 +33,7 @@ login() {
     adduser $user
     echo "proot-distro login --user $user ubuntu-20.04" > $PREFIX/bin/ubuntu
     chmod +x $PREFIX/bin/ubuntu
-    wget https://raw.githubusercontent.com/modded-ubuntu/modded-ubuntu/master/distro/gui.sh
+    wget https://raw.githubusercontent.com/srivathsarao/modded-ubuntu/master/distro/gui.sh
     mv -vf gui.sh /home/$user/gui.sh
     chmod +x /home/$user/gui.sh
     clear
